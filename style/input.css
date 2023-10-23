@@ -41,17 +41,17 @@
 
 /* For Webkit browsers */
 ::-webkit-scrollbar {
-    width: 12px; /* Change scrollbar width */
+    width: 3px; /* Change scrollbar width */
+}
+::-webkit-scrollbar-thumb{
+    background-color: #32DAFF;
 }
 
-::-webkit-scrollbar-thumb {
-    background: #ff0000; /* Change thumb color */
+::-webkit-scrollbar-track{
+    background: #1A191d;
 }
 
-::-webkit-scrollbar-track {
-    background: #fff;
-    width: 3px; /* Change track color */
-}
+
 
 .box-shadow-custom{
     box-shadow: 10px 0px 80px 0px #F55, -10px 0px 100px 0px #FBFF00, 0px 0px 50px 0px #FFF, -20px 0px 300px 0px #E3FF4B inset, 20px 0px 300px 0px #FF40D6 inset, -20px 0px 30px 0px #F00 inset, 20px 0px 30px 0px #FFD400 inset, 0px 0px 30px 0px #FFF inset;;
@@ -59,15 +59,26 @@
 
 @keyframes backAndForth {
     0%,100% {
-        transform: translateX(3px);
+        transform: translateX(9px);
     }
     50% {
         transform: translateY(0px);
     }
     
 }
-.animate-back-and-forth{
-    animation: backAndForth 2s ease-in-out infinite ;
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 
-
+.animate-back-and-forth{
+    animation: backAndForth 2s ease-in-out infinite, pulse 2s ease-in-out infinite ;
+}

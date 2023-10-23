@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mehexi-Ui/UX Desginer, Front-end Devolper</title>
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style/input.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,11 +26,26 @@
       </div>
       <div>
         <ul class="text-white flex gap-10 text-xl justify-center">
-          <li><span class="text-[#32DAFF]">//</span> home</li>
-          <li><span class="text-[#32DAFF]">//</span> expertise</li>
-          <li><span class="text-[#32DAFF]">//</span> work</li>
-          <li><span class="text-[#32DAFF]">//</span> experience</li>
-          <li><span class="text-[#32DAFF]">//</span> contact</li>
+          <li class="group">
+            <span class="text-[#32DAFF] group-hover:text-[#FBFF00]">//</span>
+            home
+          </li>
+          <li class="group">
+            <span class="text-[#32DAFF] group-hover:text-[#FBFF00]">//</span>
+            expertise
+          </li>
+          <li class="group">
+            <span class="text-[#32DAFF] group-hover:text-[#FBFF00]">//</span>
+            work
+          </li>
+          <li class="group">
+            <span class="text-[#32DAFF] group-hover:text-[#FBFF00]">//</span>
+            experience
+          </li>
+          <li class="group">
+            <span class="text-[#32DAFF] group-hover:text-[#FBFF00]">//</span>
+            contact
+          </li>
         </ul>
       </div>
     </nav>
@@ -37,21 +53,22 @@
     <!-- nav end  -->
 
     <section class="relative h-screen">
-      <div class="absolute inset-0">
+      <div class="absolute inset-0 w-full f-full">
         <img
           src="style/image/Section.png"
           alt=""
           class="w-full h-full object-cover"
         />
       </div>
-      <div
-        class="w-12 h-12 rounded-full bg-black absolute box-shadow-custom right-[762px] top-56 animate-pulse animate-back-and-forth"
-      ></div>
+
       <div
         class="absolute bg-section-gradient inset-0 flex flex-col gap-0 items-center justify-center text-white text-center"
       >
-        <h1 class="text-[8vw] font-black flex gap-14">
+        <h1 class="text-[8vw] font-black flex gap-14 relative">
           <span>MEHEDI</span><span>HASAN</span>
+          <div
+            class="w-12 h-12 rounded-full bg-black absolute box-shadow-custom -top-32 right-80 animate-back-and-forth"
+          ></div>
         </h1>
         <p class="text-[1vw] font-bold tracking-widest">
           Front-end <span class="text-[#32DAFF]">//</span> UI/UX
@@ -66,6 +83,7 @@
         </div>
       </div>
     </section>
+    <!-- hero section end  -->
     <section class="bg-[#1A191d] p-16">
       <div>
         <h1 class="text-white text-[3vw] font-black text-center">
