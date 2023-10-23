@@ -1,7 +1,73 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+*{
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+.scroll-downs {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  
+  width :34px;
+  height: 55px;
+}
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #32DAFF;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #fff;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
+
+/* For Webkit browsers */
+::-webkit-scrollbar {
+    width: 12px; /* Change scrollbar width */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff0000; /* Change thumb color */
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+    width: 3px; /* Change track color */
+}
+
+.box-shadow-custom{
+    box-shadow: 10px 0px 80px 0px #F55, -10px 0px 100px 0px #FBFF00, 0px 0px 50px 0px #FFF, -20px 0px 300px 0px #E3FF4B inset, 20px 0px 300px 0px #FF40D6 inset, -20px 0px 30px 0px #F00 inset, 20px 0px 30px 0px #FFD400 inset, 0px 0px 30px 0px #FFF inset;;
+}
+
+@keyframes backAndForth {
+    0%,100% {
+        transform: translateX(3px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    
+}
+.animate-back-and-forth{
+    animation: backAndForth 2s ease-in-out infinite ;
+}
 
 
-
-*{background-color: #1A191D;}
