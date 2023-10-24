@@ -45,6 +45,7 @@
 }
 ::-webkit-scrollbar-thumb{
     background-color: #32DAFF;
+    border-radius: 99px;
 }
 
 ::-webkit-scrollbar-track{
@@ -80,5 +81,61 @@
 }
 
 .animate-back-and-forth{
-    animation: backAndForth 2s ease-in-out infinite, pulse 2s ease-in-out infinite ;
+    animation:pulse 2s ease-in-out infinite ;
 }
+
+.custom-underline-red {
+    position: relative;
+  }
+  
+  .custom-underline-red::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    height: 8px; /* Adjust the height of the underline as needed */
+    background-color: red; /* Set the color of the underline */
+    z-index: 1;
+    
+  }
+  
+  .custom-underline-blue {
+      position: relative;
+    }
+    
+    .custom-underline-blue::before{
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      
+      height: 8px; /* Adjust the height of the underline as needed */
+      background-color: #32DAFF; /* Set the color of the underline */
+      z-index: 1;
+      
+    }
+  .custom-underline-purple {
+      position: relative;
+    }
+    
+    .custom-underline-purple::before{
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      
+      height: 8px; /* Adjust the height of the underline as needed */
+      background-color: purple; /* Set the color of the underline */
+      z-index: 1;
+      
+    }
+
+    .poppins{
+      font-family: 'Poppins', sans-serif;
+    }
+
+    
