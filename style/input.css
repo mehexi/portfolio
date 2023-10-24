@@ -138,4 +138,12 @@
       font-family: 'Poppins', sans-serif;
     }
 
+    .image-container {
+      overflow: hidden;
+      transition: transform 0.3s; /* Add a smooth transition */
+    }
+    
+    .image-container:hover {
+      transform: scale(1.1); /* Zoom in on hover */
+    }
     
