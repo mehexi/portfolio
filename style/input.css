@@ -1,5 +1,6 @@
 *{
     font-family: 'Roboto Mono', monospace;
+    cursor: none;
     
 }
 
@@ -80,11 +81,11 @@
     }
 }
 
-.animate-back-and-forth{
+  .animate-back-and-forth{
     animation:pulse 2s ease-in-out infinite ;
 }
 
-.custom-underline-red {
+  .custom-underline-red {
     position: relative;
   }
   
@@ -101,7 +102,7 @@
     
   }
   
-  .custom-underline-blue {
+   .custom-underline-blue {
       position: relative;
     }
     
@@ -117,7 +118,7 @@
       z-index: 1;
       
     }
-  .custom-underline-purple {
+    .custom-underline-purple {
       position: relative;
     }
     
@@ -146,4 +147,37 @@
     .image-container:hover {
       transform: scale(1.1); /* Zoom in on hover */
     }
+
+    .stop-gif-hover {
+      transition: transform 0.3s;
+    }
     
+    .stop-gif-hover:hover {
+      transform: scale(1.1); /* Adjust the scale factor to your preference */
+      animation-play-state: paused;
+    }
+    
+    .custom-cursor {
+      position: fixed;
+      width: 20px; /* Adjust the size of the custom cursor as needed */
+      height: 20px;
+       /* Set the background color of the cursor */
+      border-radius: 50%; /* Makes the cursor a circle */
+      pointer-events: none; /* Ensure it doesn't interfere with clicks */
+      transform: translate(-50%, -50%);
+      z-index: 999999999;
+  }
+  .custom-border {
+    z-index: 9999999;
+    
+}
+
+.event-target{
+  cursor: none;
+}
+
+
+
+
+
+
