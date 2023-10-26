@@ -21,7 +21,7 @@
 
   <!-- nav start -->
 
-  <nav class="flex fixed top-0  w-full p-10 justify-between items-center z-50">
+  <nav class="flex fixed top-0  w-full p-10 justify-between items-center z-50 max-md:hidden md:hidden lg:flex">
     <div class="text-[#32DAFF] text-4xl font-semibold">
       <h1 id="mehexi-logo">
         mehexi<span class="text-white">.</span><span class="text-red-400">/</span>
@@ -64,7 +64,7 @@
     <div
       class="absolute bg-section-gradient inset-0 flex flex-col gap-0 items-center justify-center text-white text-center">
       <h1 class="text-[8vw] font-black flex gap-14 relative">
-        <span>MEHEDI</span><span>HASAN</span>
+        MEHEDI HASAN
         <div
           class="w-12 h-12 rounded-full cursor-none bg-black absolute box-shadow-custom -top-32 right-80 animate-back-and-forth">
         </div>
@@ -83,15 +83,16 @@
     </div>
   </section>
   <!-- hero section end  -->
-  <section class="bg-[#1A191d] p-16 flex flex-col justify-center items-center gap-10">
+  <section class="bg-[#1A191d] p-16 flex flex-col justify-center items-center gap-10 ">
     <div>
       <h1 class="text-white text-[3vw] font-black text-center">
         My <span class="text-[#32DAFF]">Ex</span>pertise<span class="text-[#32DAFF]">.</span>
       </h1>
     </div>
-    <div class="w-9/12 justify-center align-middle items-center grid grid-cols-3">
+    <div
+      class="w-9/12 justify-center align-middle items-center grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 ">
       <!-- card 1 -->
-      <div class="border border-white px-8 py-10 col-span-1 flex flex-col gap-10">
+      <div class="border border-white px-8 py-10 col-span-1 flex flex-col gap-10 h-full">
         <div class="flex gap-5 items-center">
           <span>
             <img class="" src="style/image/uiux.svg" alt="">
@@ -109,12 +110,12 @@
             <h1>&lt;/h1&gt;</h1>
           </div>
           <h1 class="text-white py-5">
-            Experienced UI/UX Designer focused on creating intuitive and user-friendly digital <br> experiences
+            Experienced UI/UX Designer focused on creating intuitive and user-friendly digital experiences
           </h1>
         </div>
       </div>
       <!-- card-2  -->
-      <div class="border border-white px-8 py-10 col-span-1 flex flex-col gap-10">
+      <div class="border border-white px-8 py-10 col-span-1 flex flex-col gap-10 h-full">
         <div class="flex gap-5 items-center">
           <span><svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_1_48)">
@@ -131,8 +132,7 @@
           </span>
           <h1 class="text-2xl text-white">
             <span class="custom-underline-blue">
-              <span class="z-10 relative">Frontend Dev </span> </span><br />
-            React, NextJS
+              <span class="z-10 relative">Frontend Dev </span></span>
           </h1>
         </div>
         <div class="flex">
@@ -143,12 +143,12 @@
           </div>
           <h1 class="text-white py-5">
             Experienced Frontend Developer with a passion for crafting
-            interactive web applications using React and Next.js
+            interactive web applications.
           </h1>
         </div>
       </div>
       <!-- card-3  -->
-      <div class="border border-white px-8 py-10 col-span-1 flex flex-col gap-10">
+      <div class="border border-white px-8 py-10 col-span-1 flex flex-col gap-10 h-full">
         <div class="flex gap-5 items-center">
           <span><img src="style/image/ZAfNwM01.svg" alt="">
 
@@ -166,7 +166,7 @@
             <h1>&lt;/h1&gt;</h1>
           </div>
           <h1 class="text-white py-5">
-            Highly skilled Graphic Designer renowned for crafting compelling visual narratives and innovative designs.
+            Highly skilled Graphic Designer renowned for crafting compelling visual narratives designs.
           </h1>
         </div>
       </div>
@@ -177,7 +177,8 @@
   </section>
   <!-- card section end -->
   <section class="bg-[#1A191d] px-16 flex flex-col justify-center items-center gap-10">
-    <div class="grid grid-cols-2  justify-center w-9/12 align-middle gap-10 items-center">
+    <div
+      class="grid grid-cols-2  justify-center w-9/12 align-middle gap-10 items-center lg:grid-cols-1  xl:grid-cols-2 max-md:grid-cols-1  max-sm:grid-cols-1">
       <div class="text-white col-span-1">
         <h1 class="text-[105px] font-bold poppins ">My <br> Work</h1>
         <p class="text-xl">Deployed scalable travel, event and
@@ -195,7 +196,8 @@
           <img class="mb-6 " src="style/image/right-side-arrow.png.svg" alt="">
           <h1 class="poppins text-[22px]">fetured</h1>
           <h1 class="text-[22px]">projects</h1>
-          <button id="view-project" class="p-3 event-target cursor-none bg-purple-400 mt-5 hover:bg-[#73F39E]">view Projects</button>
+          <button id="view-project" class="p-3 event-target cursor-none bg-purple-400 mt-5 hover:bg-[#73F39E]">view
+            Projects</button>
         </div>
         <img id="animation-iphone " class="col-span-1 event-target iphone-animation -rotate-12 stop-gif-hover"
           src="style/image/untitled (2).gif"></img>
@@ -210,16 +212,16 @@
       <h1 class="poppins text-lg">filter by</h1>
 
 
-      <ul class="flex gap-5">
+      <ul class="flex gap-5 ">
         <li class="hover:text-[#32DAFF]">all<sup>10</sup> <span class="text-white">/</span> </li>
         <li class="hover:text-[#32DAFF]"> ui/ux<sup>10</sup> <span class="text-white">/</span></li>
         <li class="hover:text-[#32DAFF]"> web development<sup>10</sup></li>
       </ul>
-      
+
     </div>
-    <div  class="w-9/12 grid grid-cols-3  grid-rows-3 gap-10">
-      <div id="smithbet" class="col-span-1 row-span-1 event-target group">
-        <div class="relative h-80 overflow-hidden">
+    <div class=" grid grid-cols-3 gap-10 max-sm:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-col-3 xl:w-9/12 xl:grid-cols-3">
+      <div id="smithbet" class="col-span-1  event-target group">
+        <div class="relative h-80 overflow-hidden max-sm:h-auto">
           <img class="w-full h-full  object-cover transition-transform transform scale-100 group-hover:scale-110"
             src="style/image/smithbet (2)/Desktop - 11.png" alt="">
         </div>
@@ -228,7 +230,7 @@
           <h1 id="catagory-1" class="text-sm"> Ui/Ux</h1>
         </div>
       </div>
-      <div class="col-span-1 row-span-1 event-target group">
+      <div class="col-span-1  event-target group">
         <div class="relative h-80 overflow-hidden">
           <img class="w-full h-full transition-transform transform scale-100 group-hover:scale-110"
             src="style/image/flighlocal-cover-image.jpg.png" alt="">
@@ -238,7 +240,7 @@
           <h1 class="text-sm"> Ui/Ux</h1>
         </div>
       </div>
-      <div class="col-span-1 row-span-1 event-target">
+      <div class="col-span-1  event-target">
         <div class="relative h-80 overflow-hidden">
           <img class="w-full h-full object-cover transition-transform transform scale-100 hover:scale-110"
             src="style/image/flighlocal-cover-image.jpg.png" alt="">
@@ -248,7 +250,7 @@
           <h1 class="text-sm"> Ui/Ux</h1>
         </div>
       </div>
-      <div class="col-span-2 row-span-2 event-target">
+      <div class="col-span-2  event-target max-xl:col-span-1">
         <div class="relative overflow-hidden">
           <img class="w-full transition-transform transform scale-100 hover:scale-110"
             src="style/image/flighlocal-cover-image.jpg.png" alt="">
@@ -258,7 +260,7 @@
           <h1 class="text-sm"> Ui/Ux</h1>
         </div>
       </div>
-      <div class="col-span-1 row-span-1 event-target">
+      <div class="col-span-1  event-target">
         <div class="relative overflow-hidden">
           <img class="w-full transition-transform transform scale-100 hover:scale-110"
             src="style/image/flighlocal-cover-image.jpg.png" alt="">
@@ -284,7 +286,7 @@
     <div class="poppins font-bold text-white">
       <h1 class="text-center text-6xl">Professional <br> experience</h1>
     </div>
-    <div class="w-1/2 flex flex-col gap-5">
+    <div class="flex flex-col gap-5 xl:w-1/2 sm:w-ful max-sm:w-full md:w-full">
       <!-- according 1  -->
       <div class="text-white flex justify-between p-2 bg-[#740CDC] rounded items-center">
         <h1>software Engineer @ saimon global ltd</h1>
@@ -296,7 +298,7 @@
       </div>
       <!-- according 1 data -->
       <div id="according-1-data" class="p-4 bg-[#241D41] grid grid-cols-5 gap-5 items-center text-white rounded">
-        <div class="col-span-4 flex flex-col gap-4 ">
+        <div class="col-span-4 flex flex-col gap-4 max-sm:col-span-5 ">
           <div class="flex gap-2 text-gray-500">
             <span>
               <i class="fa-solid fa-location-dot"></i>
@@ -313,25 +315,36 @@
               Flutter SDK.
             </h1>
           </div>
-          <div class="flex gap-3 mt-4">
-            <div class="py-1 px-3  rounded-full bg-[#2C3599]">
-              <h1>JavaScript</h1>
-            </div>
-            <div class="p-1 px-3 rounded-full bg-[#2C3599]">
-              <h1>JavaScript</h1>
-            </div>
-            <div class="p-1 px-3 rounded-full bg-[#2C3599]">
-              <h1>JavaScript</h1>
-            </div>
-            <div class="p-1 px-3 rounded-full bg-[#2C3599]">
-              <h1>JavaScript</h1>
-            </div>
-            <div class="p-1 px-3 rounded-full bg-[#2C3599]">
-              <h1>JavaScript</h1>
-            </div>
-          </div>
+          <ul class="grid grid-cols-1 gap-3 mt-4 max-sm:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+            <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+              <div class="py-1 px-3 rounded-full w-fit bg-[#2C3599]">
+                <h1>JavaScript</h1>
+              </div>
+            </li>
+            <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+              <div class="p-1 px-3 rounded-full w-fit bg-[#2C3599]">
+                <h1>JavaScript</h1>
+              </div>
+            </li>
+            <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+              <div class="p-1 px-3 rounded-full w-fit bg-[#2C3599]">
+                <h1>JavaScript</h1>
+              </div>
+            </li>
+            <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+              <div class="p-1 px-3 rounded-full w-fit bg-[#2C3599]">
+                <h1>JavaScript</h1>
+              </div>
+            </li>
+            <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+              <div class="p-1 px-3 rounded-full w-fit bg-[#2C3599]">
+                <h1>JavaScript</h1>
+              </div>
+            </li>
+          </ul>
+          
         </div>
-        <div class="">
+        <div class="max-sm:hidden">
           <img class="h-3/4" src="style/image/SG-logo@2x.webp" alt="">
         </div>
       </div>
@@ -347,7 +360,7 @@
       <!-- according 2 data -->
       <div id="according-2-data"
         class="p-4  bg-[#241D41] grid grid-cols-5 gap-5 hidden items-center text-white rounded">
-        <div class="col-span-4 flex flex-col gap-4 ">
+        <div class="col-span-4 flex flex-col gap-4 max-sm:col-span-5 ">
           <div class="flex gap-2 text-gray-500">
             <span>
               <i class="fa-solid fa-location-dot"></i>
@@ -364,25 +377,36 @@
               Flutter SDK.
             </h1>
           </div>
-          <div class="flex gap-3 mt-4">
-            <div class="py-1 px-3  rounded-full bg-[#2C3599]">
-              <h1>JavaScript</h1>
-            </div>
-            <div class="p-1 px-3 rounded-full bg-[#2C3599]">
-              <h1>JavaScript</h1>
-            </div>
-            <div class="p-1 px-3 rounded-full bg-[#2C3599]">
-              <h1>JavaScript</h1>
-            </div>
-            <div class="p-1 px-3 rounded-full bg-[#2C3599]">
-              <h1>JavaScript</h1>
-            </div>
-            <div class="p-1 px-3 rounded-full bg-[#2C3599]">
-              <h1>JavaScript</h1>
-            </div>
-          </div>
+          <ul class="grid grid-cols-1 gap-3 mt-4 max-sm:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+            <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+              <div class="py-1 px-3 rounded-full w-fit bg-[#2C3599]">
+                <h1>JavaScript</h1>
+              </div>
+            </li>
+            <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+              <div class="p-1 px-3 rounded-full w-fit bg-[#2C3599]">
+                <h1>JavaScript</h1>
+              </div>
+            </li>
+            <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+              <div class="p-1 px-3 rounded-full w-fit bg-[#2C3599]">
+                <h1>JavaScript</h1>
+              </div>
+            </li>
+            <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+              <div class="p-1 px-3 rounded-full w-fit bg-[#2C3599]">
+                <h1>JavaScript</h1>
+              </div>
+            </li>
+            <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+              <div class="p-1 px-3 rounded-full w-fit bg-[#2C3599]">
+                <h1>JavaScript</h1>
+              </div>
+            </li>
+          </ul>
+          
         </div>
-        <div class="">
+        <div class="max-sm:hidden">
           <img class="h-3/4" src="style/image/SG-logo@2x.webp" alt="">
         </div>
       </div>
@@ -396,9 +420,8 @@
         </div>
       </div>
       <!-- according 3 data -->
-      <div id="according-3-data"
-        class="p-4 bg-[#241D41] grid grid-cols-5 gap-5 items-center hidden  text-white rounded">
-        <div class="col-span-4 flex flex-col gap-4 ">
+      <div id="according-3-data" class="p-4 bg-[#241D41] grid grid-cols-5 gap-5 items-center hidden   text-white rounded">
+        <div class="col-span-4 flex flex-col gap-4 max-sm:col-span-5 ">
           <div class="flex gap-2 text-gray-500">
             <span>
               <i class="fa-solid fa-location-dot"></i>
@@ -415,25 +438,36 @@
               Flutter SDK.
             </h1>
           </div>
-          <div class="flex gap-3 mt-4">
-            <div class="py-1 px-3  rounded-full bg-[#2C3599]">
-              <h1>JavaScript</h1>
-            </div>
-            <div class="p-1 px-3 rounded-full bg-[#2C3599]">
-              <h1>JavaScript</h1>
-            </div>
-            <div class="p-1 px-3 rounded-full bg-[#2C3599]">
-              <h1>JavaScript</h1>
-            </div>
-            <div class="p-1 px-3 rounded-full bg-[#2C3599]">
-              <h1>JavaScript</h1>
-            </div>
-            <div class="p-1 px-3 rounded-full bg-[#2C3599]">
-              <h1>JavaScript</h1>
-            </div>
-          </div>
+          <ul class="grid grid-cols-1 gap-3 mt-4 max-sm:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+            <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+              <div class="py-1 px-3 rounded-full w-fit bg-[#2C3599]">
+                <h1>JavaScript</h1>
+              </div>
+            </li>
+            <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+              <div class="p-1 px-3 rounded-full w-fit bg-[#2C3599]">
+                <h1>JavaScript</h1>
+              </div>
+            </li>
+            <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+              <div class="p-1 px-3 rounded-full w-fit bg-[#2C3599]">
+                <h1>JavaScript</h1>
+              </div>
+            </li>
+            <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+              <div class="p-1 px-3 rounded-full w-fit bg-[#2C3599]">
+                <h1>JavaScript</h1>
+              </div>
+            </li>
+            <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+              <div class="p-1 px-3 rounded-full w-fit bg-[#2C3599]">
+                <h1>JavaScript</h1>
+              </div>
+            </li>
+          </ul>
+          
         </div>
-        <div class="">
+        <div class="max-sm:hidden">
           <img class="h-3/4" src="style/image/SG-logo@2x.webp" alt="">
         </div>
       </div>
@@ -442,8 +476,8 @@
   </section>
   <!-- according section end  -->
   <section class="bg-[#1A191d] pt-[100px]">
-    <div class="grid grid-cols-2">
-      <div class="col-span-1 bg-black text-white p-28 flex flex-col justify-between">
+    <div class="grid grid-cols-2 max-sm:grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
+      <div class="col-span-1 bg-black text-white p-28 flex flex-col justify-between gap-10">
 
         <div class="flex flex-col gap-10">
           <h1 class="text-4xl poppins font-bold">
@@ -459,18 +493,26 @@
             <span class="custom-underline-blue">
               <span class="z-10 relative event-target">mehexi78@gmail.com</span>
           </h1>
-          
-           <div class="w-fit">
-            <ul class="flex flex-col gap-3 text-xl">
-              <li><h1 class="event-target">massenger</h1></li>
-              <li><h1 class="event-target">Linkdin</h1></li>
-              <li><h1 class="event-target">Instagram</h1></li>
-              <li><h1 class="event-target">Github</h1></li>
-            </ul>
-            
-           </div>
 
-          
+          <div class="w-fit">
+            <ul class="flex flex-col gap-3 text-xl">
+              <li>
+                <h1 class="event-target">massenger</h1>
+              </li>
+              <li>
+                <h1 class="event-target">Linkdin</h1>
+              </li>
+              <li>
+                <h1 class="event-target">Instagram</h1>
+              </li>
+              <li>
+                <h1 class="event-target">Github</h1>
+              </li>
+            </ul>
+
+          </div>
+
+
         </div>
 
 
