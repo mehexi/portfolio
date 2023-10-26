@@ -66,7 +66,7 @@
       <h1 class="text-[8vw] font-black flex gap-14 relative">
         MEHEDI HASAN
         <div
-          class="w-12 h-12 rounded-full cursor-none bg-black absolute box-shadow-custom -top-32 right-80 animate-back-and-forth">
+          class="w-12 h-12 rounded-full cursor-none bg-black absolute box-shadow-custom -top-32 right-80 animate-back-and-forth max-sm:-top-16 max-sm:right-auto">
         </div>
       </h1>
       <p class="text-[1vw] font-bold tracking-widest">
@@ -83,14 +83,14 @@
     </div>
   </section>
   <!-- hero section end  -->
-  <section class="bg-[#1A191d] p-16 flex flex-col justify-center items-center gap-10 ">
+  <section class="bg-[#1A191d] p-16 flex flex-col justify-center items-center gap-10 max-sm:p-2 sm:p-2 md:p-5 lg:p-10 xl:p-16">
     <div>
-      <h1 class="text-white text-[3vw] font-black text-center">
+      <h1 class="text-white text-6xl font-black text-center">
         My <span class="text-[#32DAFF]">Ex</span>pertise<span class="text-[#32DAFF]">.</span>
       </h1>
     </div>
     <div
-      class="w-9/12 justify-center align-middle items-center grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 ">
+      class="w-full justify-center align-middle items-center grid grid-cols-3 md:grid-cols-2 max-sm:grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 lg:w-9/12 xl:grid-cols-3 xl:w-9/12 ">
       <!-- card 1 -->
       <div class="border border-white px-8 py-10 col-span-1 flex flex-col gap-10 h-full">
         <div class="flex gap-5 items-center">
@@ -176,11 +176,11 @@
     </div>
   </section>
   <!-- card section end -->
-  <section class="bg-[#1A191d] px-16 flex flex-col justify-center items-center gap-10">
+  <section class="bg-[#1A191d] px-16 flex flex-col justify-center items-center gap-10 max-sm:px-2 sm:px-2 md:px-5 lg:px-10 xl:px-16">
     <div
-      class="grid grid-cols-2  justify-center w-9/12 align-middle gap-10 items-center lg:grid-cols-1  xl:grid-cols-2 max-md:grid-cols-1  max-sm:grid-cols-1">
-      <div class="text-white col-span-1">
-        <h1 class="text-[105px] font-bold poppins ">My <br> Work</h1>
+      class="grid grid-cols-2  justify-center w-9/12 align-middle gap-10 items-center lg:grid-cols-1  xl:grid-cols-2 max-md:grid-cols-1 sm:grid-cols-1">
+      <div class="text-white col-span-1 flex flex-col gap-10">
+        <h1 class="text-6xl font-bold poppins ">My <br> Work</h1>
         <p class="text-xl">Deployed scalable travel, event and
           telemedicine web and hybrid mobile apps
           using React SPA and PWA.
@@ -190,7 +190,11 @@
           visualization.</p>
       </div>
 
-      <div class="grid grid-cols-2 justify-end items-end gap-[-100px] col-span-1">
+      <div
+        class="grid  grid-cols-2 justify-end items-end gap-[-100px] col-span-1 max-sm:grid-cols-1 md:grid-col-1 lg:grid-col-2 xl:grid-xol-2">
+        <img id="animation-iphone "
+          class="col-span-1 event-target iphone-animation -rotate-12 stop-gif-hover max-sm:flex sm:flex md:hidden lg:hidden xl:hidden"
+          src="style/image/untitled (2).gif"></img>
 
         <div class="col-span-1 text-white items-center align-middle">
           <img class="mb-6 " src="style/image/right-side-arrow.png.svg" alt="">
@@ -199,7 +203,8 @@
           <button id="view-project" class="p-3 event-target cursor-none bg-purple-400 mt-5 hover:bg-[#73F39E]">view
             Projects</button>
         </div>
-        <img id="animation-iphone " class="col-span-1 event-target iphone-animation -rotate-12 stop-gif-hover"
+        <img id="animation-iphone "
+          class="col-span-1 event-target iphone-animation -rotate-12 stop-gif-hover max-sm:hidden sm:hidden md:flex lg:flex xl:flex"
           src="style/image/untitled (2).gif"></img>
 
       </div>
@@ -207,8 +212,8 @@
 
   </section>
   <!-- portfolieo -->
-  <section class="bg-[#1A191d] flex flex-col justify-center gap-14 items-center p-16">
-    <div class="flex gap-5 w-9/12 text-white justify-start items-center align-middle ">
+  <section class="bg-[#1A191d] flex flex-col justify-center gap-14 items-center p-16 max-sm:px-2 sm:px-2 md:px-5 lg:px-10 xl:px-16">
+    <div class="flex gap-5 w-9/12 text-white justify-start items-center align-middle max-sm:hidden sm:hidden md:flex">
       <h1 class="poppins text-lg">filter by</h1>
 
 
@@ -219,7 +224,8 @@
       </ul>
 
     </div>
-    <div class=" grid grid-cols-3 gap-10 max-sm:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-col-3 xl:w-9/12 xl:grid-cols-3">
+    <div
+      class=" grid grid-cols-3 gap-10 max-sm:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-col-3 xl:w-9/12 xl:grid-cols-3">
       <div id="smithbet" class="col-span-1  event-target group">
         <div class="relative h-80 overflow-hidden max-sm:h-auto">
           <img class="w-full h-full  object-cover transition-transform transform scale-100 group-hover:scale-110"
@@ -282,11 +288,11 @@
       </div>
     </div>
   </section>
-  <section class="bg-[#1A191d] flex flex-col justify-center gap-14 items-center p-16">
+  <section class="bg-[#1A191d] flex flex-col justify-center gap-14 items-center p-16 max-sm:p-2 sm:p-2 ">
     <div class="poppins font-bold text-white">
-      <h1 class="text-center text-6xl">Professional <br> experience</h1>
+      <h1 class="text-center text-6xl max-sm:text-3xl sm:text-4xl md:text-5xl lg:text-6xl">Professional <br> experience</h1>
     </div>
-    <div class="flex flex-col gap-5 xl:w-1/2 sm:w-ful max-sm:w-full md:w-full">
+    <div class="flex flex-col gap-5 xl:w-1/2 sm:w-full max-sm:w-full md:w-full">
       <!-- according 1  -->
       <div class="text-white flex justify-between p-2 bg-[#740CDC] rounded items-center">
         <h1>software Engineer @ saimon global ltd</h1>
@@ -299,15 +305,20 @@
       <!-- according 1 data -->
       <div id="according-1-data" class="p-4 bg-[#241D41] grid grid-cols-5 gap-5 items-center text-white rounded">
         <div class="col-span-4 flex flex-col gap-4 max-sm:col-span-5 ">
-          <div class="flex gap-2 text-gray-500">
-            <span>
-              <i class="fa-solid fa-location-dot"></i>
-            </span>
-            <h1> Chittagong,Bangladesh</h1>
-            <span>
-              <i class="fa-solid fa-paperclip"></i>
-            </span>
-            <h1>www.muktodhara.com</h1>
+          <div
+            class="grid col-span-2 gap-2 text-gray-500 max-sm:col-span-1 sm:col-span-1 md:col-span-1 lg:col-span-2 xl:col-span-2">
+            <div class="flex gap-2 col-span-1">
+              <span>
+                <i class="fa-solid fa-location-dot"></i>
+              </span>
+              <h1> Chittagong,Bangladesh</h1>
+            </div>
+            <div class="flex gap-2 col-span-1">
+              <span>
+                <i class="fa-solid fa-paperclip"></i>
+              </span>
+              <h1>www.muktodhara.com</h1>
+            </div>
           </div>
           <div>
             <h1 class="text-lg">
@@ -315,7 +326,8 @@
               Flutter SDK.
             </h1>
           </div>
-          <ul class="grid grid-cols-1 gap-3 mt-4 max-sm:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+          <ul
+            class="grid grid-cols-1 gap-3 mt-4 max-sm:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
             <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
               <div class="py-1 px-3 rounded-full w-fit bg-[#2C3599]">
                 <h1>JavaScript</h1>
@@ -342,7 +354,7 @@
               </div>
             </li>
           </ul>
-          
+
         </div>
         <div class="max-sm:hidden">
           <img class="h-3/4" src="style/image/SG-logo@2x.webp" alt="">
@@ -361,15 +373,20 @@
       <div id="according-2-data"
         class="p-4  bg-[#241D41] grid grid-cols-5 gap-5 hidden items-center text-white rounded">
         <div class="col-span-4 flex flex-col gap-4 max-sm:col-span-5 ">
-          <div class="flex gap-2 text-gray-500">
-            <span>
-              <i class="fa-solid fa-location-dot"></i>
-            </span>
-            <h1> Chittagong,Bangladesh</h1>
-            <span>
-              <i class="fa-solid fa-paperclip"></i>
-            </span>
-            <h1>www.muktodhara.com</h1>
+          <div
+            class="grid col-span-2 gap-2 text-gray-500 max-sm:col-span-1 sm:col-span-1 md:col-span-1 lg:col-span-2 xl:col-span-2">
+            <div class="flex gap-2 col-span-1">
+              <span>
+                <i class="fa-solid fa-location-dot"></i>
+              </span>
+              <h1> Chittagong,Bangladesh</h1>
+            </div>
+            <div class="flex gap-2 col-span-1">
+              <span>
+                <i class="fa-solid fa-paperclip"></i>
+              </span>
+              <h1>www.muktodhara.com</h1>
+            </div>
           </div>
           <div>
             <h1 class="text-lg">
@@ -377,7 +394,8 @@
               Flutter SDK.
             </h1>
           </div>
-          <ul class="grid grid-cols-1 gap-3 mt-4 max-sm:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+          <ul
+            class="grid grid-cols-1 gap-3 mt-4 max-sm:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
             <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
               <div class="py-1 px-3 rounded-full w-fit bg-[#2C3599]">
                 <h1>JavaScript</h1>
@@ -404,7 +422,7 @@
               </div>
             </li>
           </ul>
-          
+
         </div>
         <div class="max-sm:hidden">
           <img class="h-3/4" src="style/image/SG-logo@2x.webp" alt="">
@@ -420,17 +438,23 @@
         </div>
       </div>
       <!-- according 3 data -->
-      <div id="according-3-data" class="p-4 bg-[#241D41] grid grid-cols-5 gap-5 items-center hidden   text-white rounded">
+      <div id="according-3-data"
+        class="p-4 bg-[#241D41] grid grid-cols-5 gap-5 items-center hidden   text-white rounded">
         <div class="col-span-4 flex flex-col gap-4 max-sm:col-span-5 ">
-          <div class="flex gap-2 text-gray-500">
-            <span>
-              <i class="fa-solid fa-location-dot"></i>
-            </span>
-            <h1> Chittagong,Bangladesh</h1>
-            <span>
-              <i class="fa-solid fa-paperclip"></i>
-            </span>
-            <h1>www.muktodhara.com</h1>
+          <div
+            class="grid col-span-2 gap-2 text-gray-500 max-sm:col-span-1 sm:col-span-1 md:col-span-1 lg:col-span-2 xl:col-span-2">
+            <div class="flex gap-2 col-span-1">
+              <span>
+                <i class="fa-solid fa-location-dot"></i>
+              </span>
+              <h1> Chittagong,Bangladesh</h1>
+            </div>
+            <div class="flex gap-2 col-span-1">
+              <span>
+                <i class="fa-solid fa-paperclip"></i>
+              </span>
+              <h1>www.muktodhara.com</h1>
+            </div>
           </div>
           <div>
             <h1 class="text-lg">
@@ -438,7 +462,8 @@
               Flutter SDK.
             </h1>
           </div>
-          <ul class="grid grid-cols-1 gap-3 mt-4 max-sm:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+          <ul
+            class="grid grid-cols-1 gap-3 mt-4 max-sm:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
             <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
               <div class="py-1 px-3 rounded-full w-fit bg-[#2C3599]">
                 <h1>JavaScript</h1>
@@ -465,7 +490,7 @@
               </div>
             </li>
           </ul>
-          
+
         </div>
         <div class="max-sm:hidden">
           <img class="h-3/4" src="style/image/SG-logo@2x.webp" alt="">
@@ -477,7 +502,7 @@
   <!-- according section end  -->
   <section class="bg-[#1A191d] pt-[100px]">
     <div class="grid grid-cols-2 max-sm:grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
-      <div class="col-span-1 bg-black text-white p-28 flex flex-col justify-between gap-10">
+      <div class="col-span-1 bg-black text-white p-28 flex flex-col justify-between gap-10 max-sm:p-2 sm:p-2 md:p-5 lg:p-10 xl:p-28">
 
         <div class="flex flex-col gap-10">
           <h1 class="text-4xl poppins font-bold">
@@ -517,7 +542,7 @@
 
 
       </div>
-      <div class="col-span-1 grid grid-cols-2 bg-purple-600">
+      <div class="col-span-1 grid grid-cols-2 bg-purple-600 max-sm:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
         <div class="text-white flex flex-col px-5 py-8 gap-7">
           <div class="flex justify-end">
             <div>
