@@ -63,3 +63,25 @@ window.addEventListener('scroll', () => {
       mehexiLogo.classList.remove('hidden')
   }
 });
+
+const smithbet = document.getElementById('smithbet')
+
+
+smithbet.addEventListener('click', function () {
+    window.location.href = 'project.html'
+})
+
+smithbet.addEventListener('mouseenter', function () {
+    const smithbetCatagory = document.getElementById('catagory-1')
+
+    smithbetCatagory.innerText = 'view project'
+})
+smithbet.addEventListener('mouseleave', function () {
+    const smithbetCatagory = document.getElementById('catagory-1')
+
+    smithbetCatagory.innerText = 'Ui/Ux'
+})
+
+document.getElementById('view-project').addEventListener('click', function () {
+    window.location.href = 'project.html'
+})
