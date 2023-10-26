@@ -178,6 +178,21 @@
   cursor: none;
 }
 
+.ripple {
+  position: absolute;
+  background: rgba(115, 243, 158, 0.5);
+  border-radius: 50%;
+  transform: scale(0);
+  animation: ripple 0.5s linear;
+}
+
+@keyframes ripple {
+  to {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
 
 
 

@@ -85,3 +85,7 @@ smithbet.addEventListener('mouseleave', function () {
 document.getElementById('view-project').addEventListener('click', function () {
     window.location.href = 'project.html'
 })
+
+function goBack () {
+window.location.href = 'index.html'
+}
